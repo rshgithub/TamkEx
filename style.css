@@ -10,12 +10,12 @@ html {
 }
 
 body {
-    background-image: url("images/backgroundImg.png");
-    background-color: #ffffff;
+    background-image: url("images/back2.jpg");
     background-repeat: repeat;
     background-attachment: fixed;
     background-position: center; 
     background-origin: content-box;
+    background-attachment: fixed;
     background-clip: padding-box;
     background-blend-mode: lighten;
     font-family: 'Open Sans', sans-serif;
@@ -23,6 +23,25 @@ body {
     line-height: 1.6;
     }
 
-table, th, td {
-    border: 1px solid black;
+    h1 {
+      text-shadow: 3px 3px #dbb4b4;
+      text-transform: capitalize;
+      font-style: italic;
+      font-weight: bold;
+    }
+ 
+
+    table {
+      border-collapse: collapse;
+      border-radius: 1em;
+      overflow: hidden;
+      text-align: center;  
+      box-sizing: border-box;
+      box-shadow: 5px 5px #daf4e8;
+    }
+    
+    th, td {
+      padding: 1em;
+      background: #ddd;
+      border-bottom: 2px solid white; 
     }
